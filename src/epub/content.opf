@@ -78,7 +78,7 @@
 		<dc:contributor id="transcriber-1">Clare Graham</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">Marc D'Hooghe at http://www.freeliterature.org</dc:contributor>
+		<dc:contributor id="transcriber-2">Marc D’Hooghe at http://www.freeliterature.org</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
