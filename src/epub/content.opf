@@ -30,6 +30,14 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Dangerous Liaisons</dc:title>
 		<meta property="file-as" refines="#title">Dangerous Liaisons</meta>
+		<meta property="se:alternate-title" refines="#title">Dangerous Connections</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Series of Letters, Selected from the Correspondence of a Private Circle; and Published for the Instruction of Society</dc:title>
+		<meta property="file-as" refines="#subtitle">Series of Letters, Selected from the Correspondence of a Private Circle; and Published for the Instruction of Society, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Dangerous Liaisons: A Series of Letters, Selected from the Correspondence of a Private Circle; and Published for the Instruction of Society</dc:title>
+		<meta property="file-as" refines="#fulltitle">Dangerous Liaisons</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Epistolary fiction</dc:subject>
 		<dc:subject id="subject-2">France -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Aristocracy (Social class) -- Fiction</dc:subject>
@@ -45,45 +53,48 @@
 		<meta property="term" refines="#subject-4">sh2008111212</meta>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh85086405</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/45512</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/dangerousconnec00laclgoog</dc:source>
+		<dc:source>https://archive.org/details/DangerousConnectionsVol.3</dc:source>
+		<dc:source>https://archive.org/details/DangerousConnectionsVol.4Part1</dc:source>
+		<dc:source>https://archive.org/details/DangerousConnectionsVol.4Part2</dc:source>
+		<meta property="se:production-notes">The original English title was Dangerous Connections but has been changed to the more familiar Dangerous Liaisons. I have consolidated the individual volumes into a single ebook and removed the breaks.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Dangerous_Liaisons</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/pierre-choderlos-de-laclos_dangerous-liaisons_thomas-moore</meta>
 		<dc:creator id="author">Pierre Choderlos de Laclos</dc:creator>
 		<meta property="file-as" refines="#author">Laclos, Pierre Choderlos de</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Pierre_Choderlos_de_Laclos</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80049565</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="translator">Thomas Moore</dc:contributor>
 		<meta property="file-as" refines="#translator">Moore, Thomas</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Thomas_Moore</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n79055409</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Louis Léopold Boilly</dc:contributor>
+		<meta property="file-as" refines="#artist">Boilly, Louis Léopold</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Louis-L%C3%A9opold_Boilly</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n85068746</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Clare Graham</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Graham, Clare</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">Marc D’Hooghe at http://www.freeliterature.org</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<dc:contributor id="transcriber-2">Marc D’Hooghe</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">D’Hooghe, Marc</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">B. Timothy Keith</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Keith, B. Timothy</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://astart.ca</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -98,8 +109,188 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/advertisement-from-the-editor.xhtml" id="advertisement-from-the-editor.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/letter-1.xhtml" id="letter-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-2.xhtml" id="letter-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-3.xhtml" id="letter-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-4.xhtml" id="letter-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-5.xhtml" id="letter-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-6.xhtml" id="letter-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-7.xhtml" id="letter-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-8.xhtml" id="letter-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-9.xhtml" id="letter-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-10.xhtml" id="letter-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-11.xhtml" id="letter-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-12.xhtml" id="letter-12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-13.xhtml" id="letter-13.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-14.xhtml" id="letter-14.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-15.xhtml" id="letter-15.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-16.xhtml" id="letter-16.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-17.xhtml" id="letter-17.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-18.xhtml" id="letter-18.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-19.xhtml" id="letter-19.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-20.xhtml" id="letter-20.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-21.xhtml" id="letter-21.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-22.xhtml" id="letter-22.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-23.xhtml" id="letter-23.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-24.xhtml" id="letter-24.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-25.xhtml" id="letter-25.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-26.xhtml" id="letter-26.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-27.xhtml" id="letter-27.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-28.xhtml" id="letter-28.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-29.xhtml" id="letter-29.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-30.xhtml" id="letter-30.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-31.xhtml" id="letter-31.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-32.xhtml" id="letter-32.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-33.xhtml" id="letter-33.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-34.xhtml" id="letter-34.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-35.xhtml" id="letter-35.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-36.xhtml" id="letter-36.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-37.xhtml" id="letter-37.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-38.xhtml" id="letter-38.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-39.xhtml" id="letter-39.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-40.xhtml" id="letter-40.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-41.xhtml" id="letter-41.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-42.xhtml" id="letter-42.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-43.xhtml" id="letter-43.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-44.xhtml" id="letter-44.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-45.xhtml" id="letter-45.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-46.xhtml" id="letter-46.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-47.xhtml" id="letter-47.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-48.xhtml" id="letter-48.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-49.xhtml" id="letter-49.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-50.xhtml" id="letter-50.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-51.xhtml" id="letter-51.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-52.xhtml" id="letter-52.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-53.xhtml" id="letter-53.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-54.xhtml" id="letter-54.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-55.xhtml" id="letter-55.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-56.xhtml" id="letter-56.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-57.xhtml" id="letter-57.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-58.xhtml" id="letter-58.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-59.xhtml" id="letter-59.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-60.xhtml" id="letter-60.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-61.xhtml" id="letter-61.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-62.xhtml" id="letter-62.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-63.xhtml" id="letter-63.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-64.xhtml" id="letter-64.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-65.xhtml" id="letter-65.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-66.xhtml" id="letter-66.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-67.xhtml" id="letter-67.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-68.xhtml" id="letter-68.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-69.xhtml" id="letter-69.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-70.xhtml" id="letter-70.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-71.xhtml" id="letter-71.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-72.xhtml" id="letter-72.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-73.xhtml" id="letter-73.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-74.xhtml" id="letter-74.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-75.xhtml" id="letter-75.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-76.xhtml" id="letter-76.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-77.xhtml" id="letter-77.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-78.xhtml" id="letter-78.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-79.xhtml" id="letter-79.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-80.xhtml" id="letter-80.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-81.xhtml" id="letter-81.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-82.xhtml" id="letter-82.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-83.xhtml" id="letter-83.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-84.xhtml" id="letter-84.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-85.xhtml" id="letter-85.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-86.xhtml" id="letter-86.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-87.xhtml" id="letter-87.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-88.xhtml" id="letter-88.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-89.xhtml" id="letter-89.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-90.xhtml" id="letter-90.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-91.xhtml" id="letter-91.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-92.xhtml" id="letter-92.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-93.xhtml" id="letter-93.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-94.xhtml" id="letter-94.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-95.xhtml" id="letter-95.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-96.xhtml" id="letter-96.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-97.xhtml" id="letter-97.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-98.xhtml" id="letter-98.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-99.xhtml" id="letter-99.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-100.xhtml" id="letter-100.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-101.xhtml" id="letter-101.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-102.xhtml" id="letter-102.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-103.xhtml" id="letter-103.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-104.xhtml" id="letter-104.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-105.xhtml" id="letter-105.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-106.xhtml" id="letter-106.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-107.xhtml" id="letter-107.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-108.xhtml" id="letter-108.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-109.xhtml" id="letter-109.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-110.xhtml" id="letter-110.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-111.xhtml" id="letter-111.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-112.xhtml" id="letter-112.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-113.xhtml" id="letter-113.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-114.xhtml" id="letter-114.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-115.xhtml" id="letter-115.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-116.xhtml" id="letter-116.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-117.xhtml" id="letter-117.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-118.xhtml" id="letter-118.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-119.xhtml" id="letter-119.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-120.xhtml" id="letter-120.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-121.xhtml" id="letter-121.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-122.xhtml" id="letter-122.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-123.xhtml" id="letter-123.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-124.xhtml" id="letter-124.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-125.xhtml" id="letter-125.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-126.xhtml" id="letter-126.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-127.xhtml" id="letter-127.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-128.xhtml" id="letter-128.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-129.xhtml" id="letter-129.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-130.xhtml" id="letter-130.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-131.xhtml" id="letter-131.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-132.xhtml" id="letter-132.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-133.xhtml" id="letter-133.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-134.xhtml" id="letter-134.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-135.xhtml" id="letter-135.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-136.xhtml" id="letter-136.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-137.xhtml" id="letter-137.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-138.xhtml" id="letter-138.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-139.xhtml" id="letter-139.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-140.xhtml" id="letter-140.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-141.xhtml" id="letter-141.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-142.xhtml" id="letter-142.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-143.xhtml" id="letter-143.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-144.xhtml" id="letter-144.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-145.xhtml" id="letter-145.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-146.xhtml" id="letter-146.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-147.xhtml" id="letter-147.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-148.xhtml" id="letter-148.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-149.xhtml" id="letter-149.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-150.xhtml" id="letter-150.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-151.xhtml" id="letter-151.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-152.xhtml" id="letter-152.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-153.xhtml" id="letter-153.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-154.xhtml" id="letter-154.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-155.xhtml" id="letter-155.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-156.xhtml" id="letter-156.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-157.xhtml" id="letter-157.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-158.xhtml" id="letter-158.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-159.xhtml" id="letter-159.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-160.xhtml" id="letter-160.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-161.xhtml" id="letter-161.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-162.xhtml" id="letter-162.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-163.xhtml" id="letter-163.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-164.xhtml" id="letter-164.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-165.xhtml" id="letter-165.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-166.xhtml" id="letter-166.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-167.xhtml" id="letter-167.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-168.xhtml" id="letter-168.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-169.xhtml" id="letter-169.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-170.xhtml" id="letter-170.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-171.xhtml" id="letter-171.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-172.xhtml" id="letter-172.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-173.xhtml" id="letter-173.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-174.xhtml" id="letter-174.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-175.xhtml" id="letter-175.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/sequel-to-the-fortieth-letter.xhtml" id="sequel-to-the-fortieth-letter.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -107,6 +298,186 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="advertisement-from-the-editor.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
+		<itemref idref="letter-1.xhtml"/>
+		<itemref idref="letter-2.xhtml"/>
+		<itemref idref="letter-3.xhtml"/>
+		<itemref idref="letter-4.xhtml"/>
+		<itemref idref="letter-5.xhtml"/>
+		<itemref idref="letter-6.xhtml"/>
+		<itemref idref="letter-7.xhtml"/>
+		<itemref idref="letter-8.xhtml"/>
+		<itemref idref="letter-9.xhtml"/>
+		<itemref idref="letter-10.xhtml"/>
+		<itemref idref="letter-11.xhtml"/>
+		<itemref idref="letter-12.xhtml"/>
+		<itemref idref="letter-13.xhtml"/>
+		<itemref idref="letter-14.xhtml"/>
+		<itemref idref="letter-15.xhtml"/>
+		<itemref idref="letter-16.xhtml"/>
+		<itemref idref="letter-17.xhtml"/>
+		<itemref idref="letter-18.xhtml"/>
+		<itemref idref="letter-19.xhtml"/>
+		<itemref idref="letter-20.xhtml"/>
+		<itemref idref="letter-21.xhtml"/>
+		<itemref idref="letter-22.xhtml"/>
+		<itemref idref="letter-23.xhtml"/>
+		<itemref idref="letter-24.xhtml"/>
+		<itemref idref="letter-25.xhtml"/>
+		<itemref idref="letter-26.xhtml"/>
+		<itemref idref="letter-27.xhtml"/>
+		<itemref idref="letter-28.xhtml"/>
+		<itemref idref="letter-29.xhtml"/>
+		<itemref idref="letter-30.xhtml"/>
+		<itemref idref="letter-31.xhtml"/>
+		<itemref idref="letter-32.xhtml"/>
+		<itemref idref="letter-33.xhtml"/>
+		<itemref idref="letter-34.xhtml"/>
+		<itemref idref="letter-35.xhtml"/>
+		<itemref idref="letter-36.xhtml"/>
+		<itemref idref="letter-37.xhtml"/>
+		<itemref idref="letter-38.xhtml"/>
+		<itemref idref="letter-39.xhtml"/>
+		<itemref idref="letter-40.xhtml"/>
+		<itemref idref="letter-41.xhtml"/>
+		<itemref idref="letter-42.xhtml"/>
+		<itemref idref="sequel-to-the-fortieth-letter.xhtml"/>
+		<itemref idref="letter-43.xhtml"/>
+		<itemref idref="letter-44.xhtml"/>
+		<itemref idref="letter-45.xhtml"/>
+		<itemref idref="letter-46.xhtml"/>
+		<itemref idref="letter-47.xhtml"/>
+		<itemref idref="letter-48.xhtml"/>
+		<itemref idref="letter-49.xhtml"/>
+		<itemref idref="letter-50.xhtml"/>
+		<itemref idref="letter-51.xhtml"/>
+		<itemref idref="letter-52.xhtml"/>
+		<itemref idref="letter-53.xhtml"/>
+		<itemref idref="letter-54.xhtml"/>
+		<itemref idref="letter-55.xhtml"/>
+		<itemref idref="letter-56.xhtml"/>
+		<itemref idref="letter-57.xhtml"/>
+		<itemref idref="letter-58.xhtml"/>
+		<itemref idref="letter-59.xhtml"/>
+		<itemref idref="letter-60.xhtml"/>
+		<itemref idref="letter-61.xhtml"/>
+		<itemref idref="letter-62.xhtml"/>
+		<itemref idref="letter-63.xhtml"/>
+		<itemref idref="letter-64.xhtml"/>
+		<itemref idref="letter-65.xhtml"/>
+		<itemref idref="letter-66.xhtml"/>
+		<itemref idref="letter-67.xhtml"/>
+		<itemref idref="letter-68.xhtml"/>
+		<itemref idref="letter-69.xhtml"/>
+		<itemref idref="letter-70.xhtml"/>
+		<itemref idref="letter-71.xhtml"/>
+		<itemref idref="letter-72.xhtml"/>
+		<itemref idref="letter-73.xhtml"/>
+		<itemref idref="letter-74.xhtml"/>
+		<itemref idref="letter-75.xhtml"/>
+		<itemref idref="letter-76.xhtml"/>
+		<itemref idref="letter-77.xhtml"/>
+		<itemref idref="letter-78.xhtml"/>
+		<itemref idref="letter-79.xhtml"/>
+		<itemref idref="letter-80.xhtml"/>
+		<itemref idref="letter-81.xhtml"/>
+		<itemref idref="letter-82.xhtml"/>
+		<itemref idref="letter-83.xhtml"/>
+		<itemref idref="letter-84.xhtml"/>
+		<itemref idref="letter-85.xhtml"/>
+		<itemref idref="letter-86.xhtml"/>
+		<itemref idref="letter-87.xhtml"/>
+		<itemref idref="letter-88.xhtml"/>
+		<itemref idref="letter-89.xhtml"/>
+		<itemref idref="letter-90.xhtml"/>
+		<itemref idref="letter-91.xhtml"/>
+		<itemref idref="letter-92.xhtml"/>
+		<itemref idref="letter-93.xhtml"/>
+		<itemref idref="letter-94.xhtml"/>
+		<itemref idref="letter-95.xhtml"/>
+		<itemref idref="letter-96.xhtml"/>
+		<itemref idref="letter-97.xhtml"/>
+		<itemref idref="letter-98.xhtml"/>
+		<itemref idref="letter-99.xhtml"/>
+		<itemref idref="letter-100.xhtml"/>
+		<itemref idref="letter-101.xhtml"/>
+		<itemref idref="letter-102.xhtml"/>
+		<itemref idref="letter-103.xhtml"/>
+		<itemref idref="letter-104.xhtml"/>
+		<itemref idref="letter-105.xhtml"/>
+		<itemref idref="letter-106.xhtml"/>
+		<itemref idref="letter-107.xhtml"/>
+		<itemref idref="letter-108.xhtml"/>
+		<itemref idref="letter-109.xhtml"/>
+		<itemref idref="letter-110.xhtml"/>
+		<itemref idref="letter-111.xhtml"/>
+		<itemref idref="letter-112.xhtml"/>
+		<itemref idref="letter-113.xhtml"/>
+		<itemref idref="letter-114.xhtml"/>
+		<itemref idref="letter-115.xhtml"/>
+		<itemref idref="letter-116.xhtml"/>
+		<itemref idref="letter-117.xhtml"/>
+		<itemref idref="letter-118.xhtml"/>
+		<itemref idref="letter-119.xhtml"/>
+		<itemref idref="letter-120.xhtml"/>
+		<itemref idref="letter-121.xhtml"/>
+		<itemref idref="letter-122.xhtml"/>
+		<itemref idref="letter-123.xhtml"/>
+		<itemref idref="letter-124.xhtml"/>
+		<itemref idref="letter-125.xhtml"/>
+		<itemref idref="letter-126.xhtml"/>
+		<itemref idref="letter-127.xhtml"/>
+		<itemref idref="letter-128.xhtml"/>
+		<itemref idref="letter-129.xhtml"/>
+		<itemref idref="letter-130.xhtml"/>
+		<itemref idref="letter-131.xhtml"/>
+		<itemref idref="letter-132.xhtml"/>
+		<itemref idref="letter-133.xhtml"/>
+		<itemref idref="letter-134.xhtml"/>
+		<itemref idref="letter-135.xhtml"/>
+		<itemref idref="letter-136.xhtml"/>
+		<itemref idref="letter-137.xhtml"/>
+		<itemref idref="letter-138.xhtml"/>
+		<itemref idref="letter-139.xhtml"/>
+		<itemref idref="letter-140.xhtml"/>
+		<itemref idref="letter-141.xhtml"/>
+		<itemref idref="letter-142.xhtml"/>
+		<itemref idref="letter-143.xhtml"/>
+		<itemref idref="letter-144.xhtml"/>
+		<itemref idref="letter-145.xhtml"/>
+		<itemref idref="letter-146.xhtml"/>
+		<itemref idref="letter-147.xhtml"/>
+		<itemref idref="letter-148.xhtml"/>
+		<itemref idref="letter-149.xhtml"/>
+		<itemref idref="letter-150.xhtml"/>
+		<itemref idref="letter-151.xhtml"/>
+		<itemref idref="letter-152.xhtml"/>
+		<itemref idref="letter-153.xhtml"/>
+		<itemref idref="letter-154.xhtml"/>
+		<itemref idref="letter-155.xhtml"/>
+		<itemref idref="letter-156.xhtml"/>
+		<itemref idref="letter-157.xhtml"/>
+		<itemref idref="letter-158.xhtml"/>
+		<itemref idref="letter-159.xhtml"/>
+		<itemref idref="letter-160.xhtml"/>
+		<itemref idref="letter-161.xhtml"/>
+		<itemref idref="letter-162.xhtml"/>
+		<itemref idref="letter-163.xhtml"/>
+		<itemref idref="letter-164.xhtml"/>
+		<itemref idref="letter-165.xhtml"/>
+		<itemref idref="letter-166.xhtml"/>
+		<itemref idref="letter-167.xhtml"/>
+		<itemref idref="letter-168.xhtml"/>
+		<itemref idref="letter-169.xhtml"/>
+		<itemref idref="letter-170.xhtml"/>
+		<itemref idref="letter-171.xhtml"/>
+		<itemref idref="letter-172.xhtml"/>
+		<itemref idref="letter-173.xhtml"/>
+		<itemref idref="letter-174.xhtml"/>
+		<itemref idref="letter-175.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
