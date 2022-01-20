@@ -54,9 +54,11 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh85086405</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A series of letters in which two narcissistic French aristocrats manipulate their peers to their ruin.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Dangerous Liaisons&lt;/i&gt; (&lt;i&gt;Les Liaisons dangereuses&lt;/i&gt;) was an early French novel by &lt;a href="https://standardebooks.org/ebooks/pierre-choderlos-de-laclos"&gt;Pierre Choderlos de Laclos&lt;/a&gt;, first published in four volumes in 1782. At the time novels were a new literary form and Laclos chose to construct his story as an epistolary novel, composed solely of a series of letters written by the major characters to each other. It was first translated into English in 1812 and has become universally regarded as one the most significant early French novels.&lt;/p&gt;
+			&lt;p&gt;The story is framed around the Marquise de Merteuil and the Vicomte de Valmont, both narcissistic French aristocrats and rivals, who enjoy the games of seduction and manipulation and most especially enjoy one-upping each other. The letters they send each other portray a interconnected web of seduction, revenge and malice and are interspersed with the more innocent letters of their victims.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Dangerous Liaisons&lt;/i&gt; has often been seen as a depiction the corruption and depravity of the French nobility shortly before the French Revolution, and thereby an attack on the Ancien Régime. But it is also a depiction of the timeless problems of sex and love, and a realistic portrayal of the desires that are often beyond our control. As Laclos enjoyed the patronage Louis Philippe II, Duke of Orléans, and other royalist and conservative figures like Queen Marie Antoinette enjoyed the book, it suggests that it was not seen as a morality tale until after the French Revolution.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/45512</dc:source>
