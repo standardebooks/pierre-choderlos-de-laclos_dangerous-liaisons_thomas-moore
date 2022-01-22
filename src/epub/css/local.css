@@ -1,14 +1,9 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-.letter-note{
-	text-align: center;
-	font-style: italic;
-}
-
-footer{
-	margin-top: 1em;
-	text-align: right;
+[epub|type~="z3998:letter"]{
+	margin-left: 0;
+	margin-right: 0;
 }
 
 [epub|type~="z3998:salutation"] + p{
@@ -26,4 +21,14 @@ footer{
 	margin-top: 1em;
 	text-align: initial;
 	text-indent: 0;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+.letter-note{
+	text-align: center;
+	font-style: italic;
 }
