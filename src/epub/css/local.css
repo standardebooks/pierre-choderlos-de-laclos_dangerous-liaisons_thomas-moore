@@ -28,9 +28,13 @@ footer{
 	text-align: right;
 }
 
-.letter-note{
-	text-align: center;
+hgroup ~ p,
+#letter-142 p:nth-of-type(6),
+#letter-153 p:nth-of-type(7){
 	font-style: italic;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	text-align: center;
 	text-indent: 0;
 }
 
