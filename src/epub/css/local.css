@@ -31,4 +31,10 @@ footer{
 .letter-note{
 	text-align: center;
 	font-style: italic;
+	text-indent: 0;
+}
+
+q{
+	
+	font-style: italic;
 }
