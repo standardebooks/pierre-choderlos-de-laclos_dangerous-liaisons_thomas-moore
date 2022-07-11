@@ -67,7 +67,7 @@
 		<meta property="se:production-notes">The original English title was Dangerous Connections but has been changed to the more familiar Dangerous Liaisons. I have consolidated the individual volumes into a single ebook and removed the breaks.</meta>
 		<meta property="se:word-count">138270</meta>
 		<meta property="se:reading-ease.flesch">63.12</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Dangerous_Liaisons</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Les_Liaisons_dangereuses</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/pierre-choderlos-de-laclos_dangerous-liaisons_thomas-moore</meta>
 		<dc:creator id="author">Pierre Choderlos de Laclos</dc:creator>
 		<meta property="file-as" refines="#author">Laclos, Pierre Choderlos de</meta>
