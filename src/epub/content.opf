@@ -81,8 +81,8 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Thomas_Moore</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n79055409</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">Louis Léopold Boilly</dc:contributor>
-		<meta property="file-as" refines="#artist">Boilly, Louis Léopold</meta>
+		<dc:contributor id="artist">Louis-Léopold Boilly</dc:contributor>
+		<meta property="file-as" refines="#artist">Boilly, Louis-Léopold</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Louis-L%C3%A9opold_Boilly</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n85068746</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
