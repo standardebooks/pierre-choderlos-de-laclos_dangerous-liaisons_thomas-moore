@@ -66,7 +66,7 @@
 		<dc:source>https://archive.org/details/DangerousConnectionsVol.4Part2</dc:source>
 		<meta property="se:production-notes">The original English title was Dangerous Connections but has been changed to the more familiar Dangerous Liaisons. I have consolidated the individual volumes into a single ebook and removed the breaks.</meta>
 		<meta property="se:word-count">138266</meta>
-		<meta property="se:reading-ease.flesch">63.12</meta>
+		<meta property="se:reading-ease.flesch">63.93</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Les_Liaisons_dangereuses</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/pierre-choderlos-de-laclos_dangerous-liaisons_thomas-moore</meta>
 		<dc:creator id="author">Pierre Choderlos de Laclos</dc:creator>
