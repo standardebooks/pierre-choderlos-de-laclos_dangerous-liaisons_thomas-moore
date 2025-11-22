@@ -29,7 +29,7 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Dangerous Liaisons</dc:title>
 		<meta property="file-as" refines="#title">Dangerous Liaisons</meta>
-		<meta property="dcterms:alternate" refines="#title">Dangerous Connections</meta>
+		<meta property="dcterms:alternative" refines="#title">Dangerous Connections</meta>
 		<meta property="title-type" refines="#title">main</meta>
 		<dc:title id="subtitle">A Series of Letters, Selected from the Correspondence of a Private Circle; and Published for the Instruction of Society</dc:title>
 		<meta property="file-as" refines="#subtitle">Series of Letters, Selected from the Correspondence of a Private Circle; and Published for the Instruction of Society, A</meta>
