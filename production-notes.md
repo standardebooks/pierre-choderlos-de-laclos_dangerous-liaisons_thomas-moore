@@ -1,0 +1,1 @@
+The original English title was Dangerous Connections but has been changed to the more familiar Dangerous Liaisons. I have consolidated the individual volumes into a single ebook and removed the breaks.
