@@ -37,7 +37,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">Dangerous Liaisons: A Series of Letters, Selected from the Correspondence of a Private Circle; and Published for the Instruction of Society</dc:title>
 		<meta property="file-as" refines="#fulltitle">Dangerous Liaisons</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Epistolary fiction</dc:subject>
 		<dc:subject id="subject-2">France -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Aristocracy (Social class) -- Fiction</dc:subject>
