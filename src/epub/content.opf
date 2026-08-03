@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/pierre-choderlos-de-laclos/dangerous-liaisons/thomas-moore</dc:identifier>
 		<dc:date>2022-01-25T21:51:44Z</dc:date>
@@ -60,12 +60,12 @@
 		<meta id="collection-2" property="belongs-to-collection">The Guardian’s 100 Greatest Novels of All Time (2003)</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
 		<meta property="group-position" refines="#collection-2">8</meta>
-		<dc:description id="description">A series of letters in which two narcissistic French aristocrats manipulate and ruin their peers.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A series of letters in which two narcissistic French aristocrats manipulate and ruin their peers.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Dangerous Liaisons&lt;/i&gt; (&lt;i&gt;Les Liaisons dangereuses&lt;/i&gt;) is an early French novel by &lt;a href="https://standardebooks.org/ebooks/pierre-choderlos-de-laclos"&gt;Pierre Choderlos de Laclos&lt;/a&gt;, first published in four volumes in 1782. At the time of its publication novels were a new literary form, and Laclos chose to present his story in an epistolary style, composing the novel solely of a series of letters written by the major characters to each other. It was first translated into English in 1812 and has since become universally regarded as one the most significant early French novels.&lt;/p&gt;
 			&lt;p&gt;The story is framed around the Marquise de Merteuil and the Vicomte de Valmont, two narcissistic French aristocrats and rivals who enjoy games of seduction and manipulation, and who most especially enjoy one-upping each other. The letters they send to each other portray an interconnected web of seduction, revenge, and malice, and are interspersed with the more innocent letters of their victims.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Dangerous Liaisons&lt;/i&gt; has often been seen as a depiction of the corruption and depravity of the French nobility shortly before the French Revolution, thereby making a negative statement about the Ancien Régime. But it’s also a depiction of the timeless problems surrounding sex and love, and a realistic portrayal of desires that are often beyond our control. As Laclos enjoyed the patronage of Louis Philippe II, the Duke of Orléans, and as other royalist and conservative figures like Queen Marie Antoinette enjoyed the book, it’s likely it wasn’t seen as a morality tale until after the French Revolution.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/45512</dc:source>
 		<dc:source>https://archive.org/details/dangerousconnec00laclgoog</dc:source>
