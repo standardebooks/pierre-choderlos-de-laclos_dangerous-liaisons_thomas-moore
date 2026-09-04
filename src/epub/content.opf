@@ -39,9 +39,9 @@
 		<meta property="file-as" refines="#fulltitle">Dangerous Liaisons</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Epistolary fiction</dc:subject>
-		<dc:subject id="subject-2">France -- Fiction</dc:subject>
-		<dc:subject id="subject-3">Aristocracy (Social class) -- Fiction</dc:subject>
-		<dc:subject id="subject-4">Seduction -- Fiction</dc:subject>
+		<dc:subject id="subject-2">France--Fiction</dc:subject>
+		<dc:subject id="subject-3">Aristocracy (Social class)--Fiction</dc:subject>
+		<dc:subject id="subject-4">Seduction--Fiction</dc:subject>
 		<dc:subject id="subject-5">Mock-heroic literature</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85044453</meta>
